@@ -14,7 +14,6 @@ public class App {
         Helper.setTheme();
         LoginUI loginUI = new LoginUI();
         //UserController userController = new UserController();
-        //User user = userController.findBYLogin("a@gmail.com", "123" );
         //DashboardUI dashboardUI = new DashboardUI(user);
 
     }
