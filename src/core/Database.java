@@ -10,9 +10,9 @@ public class Database {
 
     private static Database instance = null;
     private Connection connection = null;
-    private final String DB_URL = "jdbc:mariadb://localhost:3306/siparistakip?user=root&password=asersware";
-    private final String DB_USER = "root";
-    private final String DB_PASSWORD = "asersware";
+    private final String DB_URL = "jdbc:mariadb://localhost:3306/siparistakip?user=********&password=*******";
+    private final String DB_USER = "kullanıcı adınız";
+    private final String DB_PASSWORD = "şifreniz";
 
     private Database(){
         try {
